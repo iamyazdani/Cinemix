@@ -51,8 +51,7 @@ const SideBar = ({ sideBar, setsideBar }) => {
     }
   }
 
-  //// jsx
-
+  // jsx
   return (
     <>
       {sideBar && (
