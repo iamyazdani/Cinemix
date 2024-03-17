@@ -22,7 +22,7 @@ const Nav = ({ sideBar, setsideBar }) => {
   // handling noti box
   const [notiBox, setNotiBox] = useState(false);
 
-  //// jsx
+  // jsx
   return (
     <>
       <div className="nav">
