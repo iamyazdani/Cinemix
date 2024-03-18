@@ -1,6 +1,6 @@
 import React from "react";
 
-const admin = () => {
+const Admin = () => {
   return (
     <>
     <a className="admin" href="https://www.github.com/iamyazdani" target="_blank">built by - Gulam Yazdani</a>
@@ -8,4 +8,4 @@ const admin = () => {
   );
 };
 
-export { admin };
+export default Admin;
