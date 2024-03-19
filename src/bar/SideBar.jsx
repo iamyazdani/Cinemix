@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
-import studio from "../assests/sidebar/studio.svg";
-import music from "../assests/sidebar/music.svg";
-import kids from "../assests/sidebar/kids.svg";
-import TV from "../assests/sidebar/TV.svg";
+import studio from "../assets/sidebar/studio.svg";
+import music from "../assets/sidebar/music.svg";
+import kids from "../assets/sidebar/kids.svg";
+import TV from "../assets/sidebar/TV.svg";
+
 import Admin from "../administrator/Admin";
 
 // import necessary components ^^^^^
