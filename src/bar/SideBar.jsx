@@ -67,6 +67,22 @@ const SideBar = ({ sideBar, setsideBar }) => {
               <i className="fa-solid fa-house"></i> Home
             </NavLink>
             <NavLink
+              to={"/shorts"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-shorts"></i> Shorts
+            </NavLink>
+            <NavLink
+              to={"/subscriptions"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-subscription"></i> Subscriptions
+            </NavLink>
+            <NavLink
               to={"/explore"}
               className={`sidebar-link ${({ isActive }) =>
                 isActive ? "active" : ""}`}
@@ -77,7 +93,91 @@ const SideBar = ({ sideBar, setsideBar }) => {
           </div>
 
           <div className="explore">
+            <h4>You</h4>
+            <NavLink
+              to={"/channel"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-profile"></i> Your Channel
+            </NavLink>
+            <NavLink
+              to={"/history"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-history"></i> History
+            </NavLink>
+            <NavLink
+              to={"/channel"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-video"></i> Your Videos
+            </NavLink>
+            <NavLink
+              to={"/playlist"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-clock"></i> Watch Later
+            </NavLink>
+            <NavLink
+              to={"/playlist"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-like"></i> Liked videos
+            </NavLink>
+          </div>
+
+          <div className="explore">
             <h4>Explore</h4>
+            <NavLink
+              to={"/feed"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-fire"></i> Trending
+            </NavLink>
+            <NavLink
+              to={"/channel"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-shop"></i> Shopping
+            </NavLink>
+            <NavLink
+              to={"/channel"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-music"></i> Music
+            </NavLink>
+            <NavLink
+              to={"/feed"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-film"></i> Films
+            </NavLink>
+            <NavLink
+              to={"/channel"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-connect"></i> Live
+            </NavLink>
             <NavLink
               to={"/gaming"}
               className={`sidebar-link ${({ isActive }) =>
@@ -85,6 +185,30 @@ const SideBar = ({ sideBar, setsideBar }) => {
               onClick={close}
             >
               <i className="fa-solid fa-gamepad"></i> Gaming
+            </NavLink>
+            <NavLink
+              to={"/channel"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-newspaper"></i> News
+            </NavLink>
+            <NavLink
+              to={"/sports"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-trophy"></i> Sport
+            </NavLink>
+            <NavLink
+              to={"/learning"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-graduation-cap"></i> Courses
             </NavLink>
             <NavLink
               to={"/beauty"}
@@ -95,20 +219,12 @@ const SideBar = ({ sideBar, setsideBar }) => {
               <i className="fa-solid fa-vest"></i> Fashion & Beauty
             </NavLink>
             <NavLink
-              to={"/learning"}
+              to={"/podcasts"}
               className={`sidebar-link ${({ isActive }) =>
                 isActive ? "active" : ""}`}
               onClick={close}
             >
-              <i className="fa-solid fa-graduation-cap"></i> Learning
-            </NavLink>
-            <NavLink
-              to={"/sports"}
-              className={`sidebar-link ${({ isActive }) =>
-                isActive ? "active" : ""}`}
-              onClick={close}
-            >
-              <i className="fa-solid fa-medal"></i> Sports
+              <i className="fa-solid fa-podcast"></i> Podcasts
             </NavLink>
           </div>
 
@@ -119,7 +235,7 @@ const SideBar = ({ sideBar, setsideBar }) => {
               className="sidebar-link"
               target={"_blank"}
             >
-              <img src={studio} alt="youtube studio" /> Creator Studio
+              <img src={studio} alt="youtube studio" /> YouTube Studio
             </a>
             <a
               href="https://music.youtube.com/"
@@ -142,6 +258,41 @@ const SideBar = ({ sideBar, setsideBar }) => {
             >
               <img src={TV} alt="youtube TV" /> YouTube TV
             </a>
+          </div>
+
+          <div className="explore">
+            <NavLink
+              to={"/account"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-setting"></i> Settings
+            </NavLink>
+            <NavLink
+              to={"/reporthistory"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-flag"></i> Report History
+            </NavLink>
+            <NavLink
+              to={"/help"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-help"></i> Help
+            </NavLink>
+            <NavLink
+              to={"/feedback"}
+              className={`sidebar-link ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              onClick={close}
+            >
+              <i className="fa-solid fa-feedback"></i> Send feedback
+            </NavLink>
           </div>
           <Admin />
         </div>

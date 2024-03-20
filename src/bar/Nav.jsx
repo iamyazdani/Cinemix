@@ -47,7 +47,7 @@ const Nav = ({ sideBar, setsideBar }) => {
         </form>
         <div className="logos_2">
           <a
-            href="https://studio.youtube.com/channel/UCEFqNMNL13JgvIC0enZrIkw/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"
+            href="https://studio.youtube.com/"
             target="_blank"
           >
             <i className="fa-solid fa-folder-plus"></i>
