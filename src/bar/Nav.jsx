@@ -30,7 +30,7 @@ const Nav = ({ sideBar, setsideBar }) => {
           <i className="fa-solid fa-bars" onClick={sideBarButtonHandle}></i>
           <Link to={"/"}>
             <img src={logo} alt="youtube logo" />
-            <h4>YouTube</h4>
+            <h4>YouTube<sup className="logo-superset">IN</sup></h4>
           </Link>
         </div>
         <form className="input-box" onSubmit={SearchButton}>
