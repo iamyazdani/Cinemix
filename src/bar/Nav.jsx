@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import logo from "../assets/navbar/logo.png";
 import NotiBox from "../components/NotiBox";
 
-// import necessary components ^^^^^
+// import necessary components
 
 const Nav = ({ sideBar, setsideBar }) => {
   const sideBarButtonHandle = () => {
@@ -45,6 +45,14 @@ const Nav = ({ sideBar, setsideBar }) => {
             onClick={SearchButton}
           ></i>
         </form>
+
+        {/* <div className="logos_2">
+          <i
+            className="fa-solid fa-microphone"
+            onClick={() => setNotiBox(!notiBox)}
+          ></i>
+        </div> */}
+        
         <div className="logos_2">
           <a
             href="https://studio.youtube.com/"

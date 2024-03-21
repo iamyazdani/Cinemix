@@ -25,7 +25,7 @@ const Learning = () => {
       {LearningData && (
         <p className="items-title">
           Learning
-          <i className="fa-solid fa-graduation-cap"></i>
+          <i className="fa-solid fa-user-graduate"></i>
         </p>
       )}
 

@@ -23,7 +23,8 @@ const Sports = () => {
 
       {sportsData && (
         <p className="items-title">
-          Sports <i className="fa-solid fa-medal"></i>
+          Sports
+          <i className="fa-solid fa-trophy"></i>
         </p>
       )}
 

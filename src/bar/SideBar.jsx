@@ -201,7 +201,7 @@ const SideBar = ({ sideBar, setsideBar }) => {
                 isActive ? "active" : ""}`}
               onClick={close}
             >
-              <i className="fa-solid fa-trophy"></i> Sport
+              <i className="fa-solid fa-trophy"></i> Sports
             </NavLink>
             <NavLink
               to={"/learning"}
@@ -209,7 +209,7 @@ const SideBar = ({ sideBar, setsideBar }) => {
                 isActive ? "active" : ""}`}
               onClick={close}
             >
-              <i className="fa-solid fa-user-graduate"></i> Courses
+              <i className="fa-solid fa-user-graduate"></i> Learning
             </NavLink>
             <NavLink
               to={"/beauty"}
@@ -336,21 +336,21 @@ const SideBar = ({ sideBar, setsideBar }) => {
             className={`sidebar-link-sm ${({ isActive }) =>
               isActive ? "active" : ""}`}
           >
-            <i className="fa-solid fa-vest"></i> Fashion & Beauty
+            <i className="fa-solid fa-vest-patches"></i> Fashion & Beauty
           </NavLink>
           <NavLink
             to={"/learning"}
             className={`sidebar-link-sm ${({ isActive }) =>
               isActive ? "active" : ""}`}
           >
-            <i className="fa-solid fa-graduation-cap"></i> Learning
+            <i className="fa-solid fa-user-graduate"></i> Learning
           </NavLink>
           <NavLink
             to={"/sports"}
             className={`sidebar-link-sm ${({ isActive }) =>
               isActive ? "active" : ""}`}
           >
-            <i className="fa-solid fa-medal"></i> Sports
+            <i className="fa-solid fa-trophy"></i> Sports
           </NavLink>
         </div>
       )}

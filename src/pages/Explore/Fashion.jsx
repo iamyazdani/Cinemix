@@ -23,7 +23,7 @@ const Fashion = () => {
       {FashionData && (
         <p className="items-title">
           Fashion & Beauty
-          <i className="fa-solid fa-vest"></i>
+          <i className="fa-solid fa-vest-patches"></i>
         </p>
       )}
 

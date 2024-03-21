@@ -22,13 +22,13 @@ const Explore = () => {
           <i className="fa-solid fa-gamepad"></i> Gaming
         </Link>
         <Link to={"/beauty"} className="explore-items">
-          <i className="fa-solid fa-vest"></i> Fashion & Beauty
+          <i className="fa-solid fa-vest-patches"></i> Fashion & Beauty
         </Link>
         <Link to={"/learning"} className="explore-items">
-          <i className="fa-solid fa-graduation-cap"></i> Learning
+          <i className="fa-solid fa-user-graduate"></i> Learning
         </Link>
         <Link to={"/sports"} className="explore-items">
-          <i className="fa-solid fa-medal"></i> Sports
+          <i className="fa-solid fa-trophy"></i> Sports
         </Link>
       </div>
       <div className="trending">
