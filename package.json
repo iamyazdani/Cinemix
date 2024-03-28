@@ -1,5 +1,5 @@
 {
-  "name": "youtube-clone",
+  "name": "cinemix",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -32,7 +32,7 @@
     "sass": "^1.72.0",
     "vite": "^5.1.6"
   },
-  "description": "YouTube clone with almost same features and mock ups design",
+  "description": "Cinemix with almost all features like youtube and mock ups design",
   "main": "vite.config.js",
   "author": "gulam yazdani",
   "license": "ISC"
